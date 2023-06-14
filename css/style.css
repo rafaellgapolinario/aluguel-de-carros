@@ -1,0 +1,144 @@
+ html{
+     font-size: 62.5%;
+ }
+
+
+body{
+	font-size:1.6rem;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #E0F8F7; }
+
+
+header {
+	position: fixed;
+	text-align: center;
+	width:100%;
+	background-color: #CECEF6;
+	border: 1px black solid;
+	padding: 5px 5px 1px 5px;
+}
+
+#texto1{
+	font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+	background-color: #A9E2F3;
+	box-shadow: 1px 1px 11px #58FAF4;
+	width: 15%;
+	padding: 1%;
+	margin: 0 auto;
+
+}
+
+
+.formulario {
+	
+	color: #000;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: right;
+	
+
+}
+#enviar{
+	background-color:#58FA82;
+
+}
+
+p{
+  font-size: 1.6rem;
+  padding: 10px;
+   
+
+}
+
+h2{
+
+	padding: 10px;
+}
+
+h1{
+
+
+
+}
+
+#texto2{
+	box-shadow: 1px 1px 11px #58FAF4;
+	background-color:#D8D8D8;
+}
+#recebida{
+	box-shadow: 1px 1px 11px #58FAF4;
+	background-color:#D8D8D8;
+	text-align: center;
+}
+
+#grid-conteiner{
+
+	background-color:#E0E0F8;
+	box-shadow: 1px 1px 5px #000;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-gap: 5px;
+	max-width: 1100px;
+	margin: 0 auto;
+
+
+}
+
+.grid div{
+	font-size:1.6rem;
+	text-align: center;
+	background-color:#FBFBEF;
+	padding-bottom: 25px
+
+}
+
+img{
+	width: 70%;
+	height:65%;
+
+}
+
+a{
+font-size: 1.6rem;
+color: #000;
+}
+
+footer{
+	font-size: 1.6rem;
+	color: #000;
+	text-align: center;
+
+}
+
+fieldset{
+	font-size: 1.7rem;
+	font-weight: bold;
+	text-align: left;
+	border: solid;
+	padding: 2%;
+}
+
+input{
+	border-radius: 5px;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border: solid;
+}
+
+select {
+	border-radius: 5px;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border: solid;
+}
+
+option{
+	border-radius: 5px;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border: solid;
+}
